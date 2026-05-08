@@ -1,0 +1,7 @@
+week_ending,workstream,metric,status,notes,owner
+2026-05-08,Data Model,Percent Complete,85,On track; blocked on two supply chain KPI definitions,Omar
+2026-05-08,Integration,ERP API Credentials,Delayed,Ticket open for 8 business days,Client IT
+2026-05-08,Testing,UAT Prep Readiness,Amber,Test-user list not finalized,Erin
+2026-05-08,Scope,Change Requests Open,1,Weekend cutover support under review,Priya
+2026-05-08,Data Quality,Supplier Duplicate Rate,High,Needs dedupe rule from operations,Client Ops
+2026-05-08,Schedule,Go-live Confidence,Medium,Recoverable if credentials by 2026-05-13,PMO

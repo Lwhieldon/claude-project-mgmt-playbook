@@ -1,0 +1,14 @@
+Steering Weekly - 2026-05-08
+Attendees: Dana (Program Sponsor), Priya (Client PM), Omar (Data Architect), Jules (Integration Lead), Erin (QA Lead)
+
+Priya: We completed KPI mapping for finance and sales, but supply chain still has two unresolved metric definitions.
+Omar: The dimensional model is 85% complete. We are blocked on ERP API credentials; ticket raised last Tuesday.
+Dana: Is that delay now affecting UAT?
+Erin: If access is not granted by next Wednesday, UAT prep will slip by at least four business days.
+Jules: We can run CRM integration tests in parallel to recover part of the schedule, but QA staffing is tight.
+Priya: We also need decision on whether weekend cutover support is in scope or separate CR.
+Dana: Put options in front of steering next week with cost and schedule impact.
+Omar: Another issue: supplier hierarchy records have duplicates; we need business owner validation.
+Priya: Action for client ops manager to provide a dedupe rule by Tuesday.
+Erin: I need final UAT test-user list by Friday.
+Dana: Let's escalate credential provisioning if no response by Monday noon.
