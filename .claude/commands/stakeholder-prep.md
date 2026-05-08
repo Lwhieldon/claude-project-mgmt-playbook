@@ -14,7 +14,7 @@ Prepares you for a stakeholder meeting: agenda, talking points, anticipated obje
 /stakeholder-prep $ARGUMENTS
 ```
 
-`$ARGUMENTS` — Describe the meeting: who you're meeting, the purpose, and any context (e.g., "CFO review of project status, we're 2 weeks behind schedule and need to discuss a scope reduction").
+`$ARGUMENTS`: Describe the meeting, including who you're meeting, the purpose, and any context (e.g., "CFO review of project status, we're 2 weeks behind schedule and need to discuss a scope reduction").
 
 ## Inputs
 
@@ -27,11 +27,11 @@ Prepares you for a stakeholder meeting: agenda, talking points, anticipated obje
 
 Using the meeting context provided in $ARGUMENTS, prepare the following:
 
-**Meeting Objective:** One sentence — what a successful meeting looks like.
+**Meeting Objective:** One sentence describing what a successful meeting looks like.
 
 **Suggested Agenda** (with time allocations):
-- Item 1 — X min
-- Item 2 — X min
+- Item 1 (X min)
+- Item 2 (X min)
 - ...
 
 **Key Talking Points:**
@@ -42,21 +42,21 @@ For each agenda item, 2–3 crisp, evidence-backed bullets. Executive audience: 
 |---|---|
 
 **What You Need From Them:**
-- Specific decisions, approvals, or inputs — be explicit
+- Specific decisions, approvals, or inputs. Be explicit about what you need.
 
 **Follow-Up Email Template:**
 
-Subject: [Meeting topic] — Follow-Up and Next Steps
+Subject: [Meeting topic]: Follow-Up and Next Steps
 
 [Opening sentence referencing the meeting]
 
-[Summary of key decisions or agreements — 2–4 bullets]
+[Summary of key decisions or agreements, 2-4 bullets]
 
 [Action items table with owner and due date]
 
 [Closing with next scheduled touchpoint]
 
-Use a professional, confident tone. For the objections section, be direct — anticipate the hardest questions, not just the easy ones.
+Use a professional, confident tone. For the objections section, prepare for the harder questions, not just the straightforward ones.
 
 ---
 
@@ -68,4 +68,4 @@ Use a professional, confident tone. For the objections section, be direct — an
 | Question | Recommended Response |
 |---|---|
 | "Why are we behind? You committed to this date." | "We hit two dependencies on client data access that weren't in the original plan. We flagged them in the Week 6 status report. Here's what we did to recover time..." |
-| "What does a 2-week delay cost us?" | "Direct cost: approximately $X in additional resource time. Indirect: UAT readiness shifts to [date]. We've modeled three options — happy to walk through them." |
+| "What does a 2-week delay cost us?" | "Direct cost: approximately $X in additional resource time. Indirect: UAT readiness shifts to [date]. We've modeled three options; we're happy to walk through them." |

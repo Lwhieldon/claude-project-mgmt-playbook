@@ -34,7 +34,7 @@ Generate the following:
 |---|---|---|---|
 
 ### Key Messages
-For each agenda item, 2–3 crisp talking points. Lead with the bottom line; follow with supporting evidence. Tailor to the stated audience — C-suite language differs from working-team language.
+For each agenda item, 2–3 crisp talking points. Lead with the bottom line; follow with supporting evidence. Tailor to the stated audience, as C-suite language differs from working-team language.
 
 ### Anticipated Questions & Tough Topics
 | Likely Question | Recommended Response | Notes |
@@ -43,7 +43,7 @@ For each agenda item, 2–3 crisp talking points. Lead with the bottom line; fol
 Focus on the hard questions, not the easy ones. For sensitive topics, prepare both the direct answer and a bridging statement if the conversation needs to be redirected.
 
 ### What You Need from Them
-Be explicit about decisions, approvals, or commitments you're seeking. Bring three options whenever asking for a decision — it's easier to choose than to create.
+Be explicit about decisions, approvals, or commitments you're seeking. Bring three options whenever asking for a decision, since it's easier to choose than to create from scratch.
 
 ### Pre-Meeting Checklist
 - [ ] Relevant documents shared with attendees in advance
@@ -55,13 +55,13 @@ Be explicit about decisions, approvals, or commitments you're seeking. Bring thr
 
 After generating the prep package, also produce a ready-to-edit follow-up email template:
 
-**Subject:** [Meeting topic] — Summary and Next Steps
+**Subject:** [Meeting topic]: Summary and Next Steps
 
 [Opening sentence]
-[Key decisions / agreements — 3–5 bullets]
+[Key decisions and agreements, 3-5 bullets]
 [Action items table: Action | Owner | Due Date]
 [Next touchpoint / closing]
 
 ## Tone
 
-Professional and direct. For executive meetings, lead with the bottom line — they will read the first sentence of every section and skim the rest.
+Professional and direct. For executive meetings, lead with the bottom line, as senior audiences typically read the opening statement of each section and scan the rest.

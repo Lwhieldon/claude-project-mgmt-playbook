@@ -1,4 +1,4 @@
-# Project Leadership — Claude Code Context
+# Project Leadership: Claude Code Context
 
 This file gives Claude persistent context about who we are, how we work, and the standards that apply to every task in this project. Edit the `[PLACEHOLDER]` fields before your first session.
 
@@ -9,7 +9,7 @@ This file gives Claude persistent context about who we are, how we work, and the
 - **Firm:** [YOUR FIRM NAME]
 - **Practice:** [e.g., Enterprise Advisory & Transformation]
 - **Engagement type:** [e.g., ERP implementation / Data modernization / Process transformation]
-- **Client:** [CLIENT NAME] — [one-liner: industry, company size, what they do]
+- **Client:** [CLIENT NAME]: [one-liner: industry, company size, what they do]
 - **Engagement phase:** [e.g., Discovery / Design / Build / UAT / Hypercare]
 - **Engagement lead:** [Your name and title]
 - **Key client contacts:** [Name, Title; Name, Title]
@@ -21,10 +21,10 @@ This file gives Claude persistent context about who we are, how we work, and the
 
 All client-facing content must be:
 
-- **Professional and precise** — no filler phrases, no hedging without substance behind it
-- **Audience-appropriate** — executive summaries at the C-suite level; working docs for the delivery team
-- **Action-oriented** — every recommendation names an owner and a deadline
-- **Formatted for reuse** — headers, bullets, and tables so output drops into PowerPoint or Word with minimal editing
+- **Professional and precise**: no filler phrases, no hedging without substance behind it
+- **Audience-appropriate**: executive summaries at the C-suite level; working docs for the delivery team
+- **Action-oriented**: every recommendation names an owner and a deadline
+- **Formatted for reuse**: headers, bullets, and tables so output drops into PowerPoint or Word with minimal editing
 
 Internal working documents may be more direct and less formal.
 
@@ -57,7 +57,7 @@ When tone is not specified, default to **professional consulting** style: confid
 
 ## Default Output Formats
 
-- **Status:** Use RAG indicators — 🔴 Red / 🟡 Amber / 🟢 Green — for overall status and each workstream
+- **Status:** Use RAG indicators (🔴 Red / 🟡 Amber / 🟢 Green) for overall status and each workstream
 - **Action items:** Always include: Action, Owner, Due Date, Priority (High/Med/Low)
 - **PowerPoint-ready content:** Short bullets (≤ 12 words), no nesting deeper than 2 levels
 - **Word/email content:** Full sentences, structured headers, professional closing
@@ -98,10 +98,10 @@ Skills in `skills/` are invoked automatically when you describe matching work:
 Add running notes here as the engagement progresses. Commit updates so the whole team shares context.
 
 **Key decisions:**
-- [Date] — [Decision] — [Rationale] — [Owner]
+- [Date] | [Decision] | [Rationale] | [Owner]
 
 **Open risks:**
-- [Risk description] — [Owner] — [Status]
+- [Risk description] | [Owner] | [Status]
 
 **Team / capacity notes:**
-- [Person] — [Role] — [Availability / travel / coverage notes]
+- [Person] | [Role] | [Availability / travel / coverage notes]

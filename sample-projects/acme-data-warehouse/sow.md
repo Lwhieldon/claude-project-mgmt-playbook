@@ -1,5 +1,5 @@
 # Statement of Work
-## Acme Corp — Enterprise Data Warehouse Modernization
+## Acme Corp: Enterprise Data Warehouse Modernization
 
 **Version:** 1.2 (Executed)
 **Date:** June 10, 2025
@@ -84,8 +84,8 @@ The following assumptions are the basis of this SOW. Changes to these assumption
 |---|---|---|
 | Initiate & Discover | Jul 7 – Jul 31, 2025 | Architecture doc approved |
 | Design & Plan | Aug 1 – Aug 29, 2025 | Data migration plan approved |
-| Build — Sprint 1–4 | Sep 1 – Oct 31, 2025 | All pipelines deployed to staging |
-| Build — Sprint 5–8 | Nov 1 – Nov 28, 2025 | Dashboards rebuilt and validated |
+| Build (Sprints 1-4) | Sep 1 - Oct 31, 2025 | All pipelines deployed to staging |
+| Build (Sprints 5-8) | Nov 1 - Nov 28, 2025 | Dashboards rebuilt and validated |
 | UAT & Enablement | Dec 1 – Dec 10, 2025 | Training complete; go-live approved |
 | Go-Live | Dec 12, 2025 | Production cutover |
 

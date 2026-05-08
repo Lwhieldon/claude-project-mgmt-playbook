@@ -14,7 +14,7 @@ Drafts a formal change request document from a description of the proposed chang
 /change-request $ARGUMENTS
 ```
 
-`$ARGUMENTS` — Describe the change: what is changing, why, and any known impact on scope, timeline, or cost.
+`$ARGUMENTS`: Describe the change, including what is changing, why, and any known impact on scope, timeline, or cost.
 
 ## Inputs
 

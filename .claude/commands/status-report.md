@@ -14,11 +14,11 @@ Generates a structured weekly status report from project data or a free-text sum
 /status-report $ARGUMENTS
 ```
 
-`$ARGUMENTS` — File path to a `status-data.csv` or a brief free-text description of the week pasted after the command.
+`$ARGUMENTS`: File path to a `status-data.csv` or a brief free-text description of the week pasted after the command.
 
 ## Inputs
 
-- A CSV file with weekly project data (% complete, budget burn, issues, milestones) — see `sample-projects/acme-data-warehouse/status-data.csv` for the expected format
+- A CSV file with weekly project data (% complete, budget burn, issues, milestones). See `sample-projects/acme-data-warehouse/status-data.csv` for the expected format.
 - Or a plain-text description: accomplishments, blockers, upcoming work, any open issues
 - Optional: paste or reference last week's status for a comparison view
 
@@ -28,7 +28,7 @@ Read the project data or notes provided in: $ARGUMENTS
 
 Generate a weekly project status report with the following sections:
 
-**Overall Status:** [🔴 Red / 🟡 Amber / 🟢 Green] — one-sentence rationale
+**Overall Status:** [🔴 Red / 🟡 Amber / 🟢 Green]: one-sentence rationale
 
 **Accomplishments This Week:**
 - 3–5 bullet points tied to specific deliverables or milestones
@@ -50,7 +50,7 @@ Use professional, direct consulting language. No filler sentences. If data is mi
 
 ## Example Output
 
-**Overall Status:** 🟡 Amber — Sprint 4 velocity is 15% below plan due to delayed UAT environment setup; mitigation plan in progress.
+**Overall Status:** 🟡 Amber. Sprint 4 velocity is 15% below plan due to delayed UAT environment setup; mitigation plan in progress.
 
 **Accomplishments This Week:**
 - Completed data migration scripts for Orders and Inventory modules

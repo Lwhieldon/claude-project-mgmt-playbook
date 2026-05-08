@@ -33,7 +33,7 @@ Assess the deliverable across these five dimensions:
 
 ### 5. Actionability
 - After reading this, does the client know what to do next?
-- Are next steps specific — named owners and dates?
+- Are next steps specific, with named owners and dates?
 - Would a client who hasn't been in the room understand what's being asked of them?
 
 ## Output Format
@@ -53,4 +53,4 @@ Severity: High (blocks delivery) / Medium (should fix before sending) / Low (nic
 **Quick Wins:**
 - Up to 3 small edits that would noticeably improve quality with minimal effort
 
-Be direct. This is an internal QA review, not a compliment sandwich.
+Be specific and constructive. This is an internal QA review meant to improve quality before the deliverable reaches the client.

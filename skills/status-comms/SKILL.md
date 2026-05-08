@@ -30,7 +30,7 @@ Before drafting, synthesize:
 ### Email Format
 Professional status email suitable for forwarding to client stakeholders.
 
-Subject line: `[Project Name] — Week [#] Status Update | [RAG Status]`
+Subject line: `[Project Name]: Week [#] Status Update | [RAG Status]`
 
 Structure:
 - Opening sentence: overall status and one-line summary
@@ -42,7 +42,7 @@ Structure:
 
 ### PowerPoint / Slide Format
 Short bullets optimized for a status slide:
-- Overall: [RAG] — [one-line rationale]
+- Overall: [RAG]: [one-line rationale]
 - Accomplishments: 3–5 bullets (≤ 10 words each)
 - Next 2 weeks: 3–5 bullets with dates
 - Key risks: 2–3 bullets with owner
@@ -57,7 +57,7 @@ When status is 🔴 Red or the situation is sensitive:
 1. Lead with facts, not apologies
 2. State the issue clearly in the first sentence
 3. Immediately follow with: what caused it, what is being done, and by when the situation will be resolved or re-assessed
-4. Avoid hedging language — "we believe," "hopefully," "it seems" — replace with direct statements or explicit uncertainty: "we do not yet know X; we will have an answer by [date]"
+4. Avoid hedging language such as "we believe," "hopefully," or "it seems." Replace with direct statements or explicit uncertainty: "we do not yet know X; we will have an answer by [date]"
 
 ## Tone Calibration
 

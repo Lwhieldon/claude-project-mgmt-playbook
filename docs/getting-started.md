@@ -32,7 +32,7 @@ claude
 
 On first run, Claude Code will prompt you to authenticate via browser. Follow the prompt.
 
-Claude Code automatically reads `CLAUDE.md` at startup — this gives Claude the context it needs about your engagement before you type a single message.
+Claude Code automatically reads `CLAUDE.md` at startup, giving Claude the context it needs about your engagement before you type a single message.
 
 ---
 
@@ -112,7 +112,7 @@ Then add your real project files: SOW, transcripts, status data, change requests
 
 ## Where to Go Next
 
-- `docs/glossary.md` — Key terms explained (CLAUDE.md, skills, slash commands, subagents)
-- `.claude/commands/` — Browse and edit the slash commands
-- `skills/` — Browse the available skills
-- `sample-projects/` — Practice with the fictional Acme and Globex projects
+- `docs/glossary.md`: Key terms explained (CLAUDE.md, skills, slash commands, subagents)
+- `.claude/commands/`: Browse and edit the slash commands
+- `skills/`: Browse the available skills
+- `sample-projects/`: Practice with the fictional Acme and Globex projects

@@ -6,7 +6,7 @@ description: Extract action items, decisions, and risks from a meeting transcrip
 
 ## Purpose
 
-Parses a meeting transcript and extracts all action items, key decisions, open questions, and risks — plus a brief meeting summary. Saves 20–30 minutes of manual note cleanup after every client call.
+Parses a meeting transcript and extracts all action items, key decisions, open questions, and risks, plus a brief meeting summary. Saves 20-30 minutes of manual note cleanup after every client call.
 
 ## Usage
 
@@ -14,7 +14,7 @@ Parses a meeting transcript and extracts all action items, key decisions, open q
 /transcript-actions $ARGUMENTS
 ```
 
-`$ARGUMENTS` — File path to a `.txt` or `.md` transcript file.
+`$ARGUMENTS`: File path to a `.txt` or `.md` transcript file.
 
 ## Inputs
 
@@ -31,7 +31,7 @@ Produce the following sections:
 **Meeting Summary** (3–5 sentences): Who attended, the stated purpose, and top outcomes or decisions.
 
 **Decisions Made:**
-- List each decision with context. Format: "[Decision] — [Rationale if stated]"
+- List each decision with context. Format: "[Decision]: [Rationale if stated]"
 
 **Action Items:**
 | # | Action | Owner | Due Date | Priority | Notes |
@@ -43,7 +43,7 @@ Extract all explicit and implied action items. If owner or due date is not state
 - Items raised but not resolved during the meeting
 
 **Risks or Concerns Flagged:**
-- Any risks, blockers, or concerns mentioned — even informally
+- Any risks, blockers, or concerns mentioned, including informal ones
 
 Be thorough. Do not summarize away specifics. The value is in the detail.
 

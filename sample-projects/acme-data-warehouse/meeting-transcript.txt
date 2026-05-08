@@ -1,17 +1,17 @@
-Acme Corp Data Warehouse — Sprint 4 Retrospective
+Acme Corp Data Warehouse: Sprint 4 Retrospective
 Date: October 9, 2025
 Location: Microsoft Teams
 Duration: 62 minutes
 
 Attendees:
-- Sarah Mitchell (Firm) — Engagement Lead [facilitating]
-- Dev Kapoor (Firm) — Technical Lead
-- Priya Nair (Firm) — Data Engineer
-- Marcus Webb (Firm) — Project Manager
-- Linda Chen (Acme) — Client Project Manager
-- Tom Hargrove (Acme) — VP of Finance [joined 12 min late]
-- Keisha Odom (Acme) — Operations SME
-- Raj Patel (Acme) — IT Infrastructure Lead
+- Sarah Mitchell (Firm), Engagement Lead [facilitating]
+- Dev Kapoor (Firm), Technical Lead
+- Priya Nair (Firm), Data Engineer
+- Marcus Webb (Firm), Project Manager
+- Linda Chen (Acme), Client Project Manager
+- Tom Hargrove (Acme), VP of Finance [joined 12 min late]
+- Keisha Odom (Acme), Operations SME
+- Raj Patel (Acme), IT Infrastructure Lead
 
 ---
 
@@ -21,9 +21,9 @@ Attendees:
 
 [01:00] Sarah: So Sprint 4 goals were: complete the Finance domain pipelines, start the Inventory domain build, and get the staging UAT environment stood up so the client team could begin reviewing outputs. Dev, where do we stand?
 
-[02:00] Dev: On Finance, we're in good shape. All six Finance pipelines are deployed to staging and passing data quality checks. Priya ran the validation against legacy output last Thursday and we're at 99.7% match rate, which is within tolerance. The one gap is the intercompany eliminations logic — Keisha, we're still waiting on the business rules documentation for that. We've been blocked on that since September 25th.
+[02:00] Dev: On Finance, we're in good shape. All six Finance pipelines are deployed to staging and passing data quality checks. Priya ran the validation against legacy output last Thursday and we're at 99.7% match rate, which is within tolerance. The one gap is the intercompany eliminations logic; Keisha, we're still waiting on the business rules documentation for that. We've been blocked on that since September 25th.
 
-[03:15] Keisha: Yes, I know, I'm sorry. Our accounting lead is out on leave and I've been trying to get someone else to pick it up. I can have something to you by end of next week — October 17th.
+[03:15] Keisha: Yes, I know, I'm sorry. Our accounting lead is out on leave and I've been trying to get someone else to pick it up. I can have something to you by end of next week (October 17th).
 
 [03:45] Dev: October 17th works, thanks. We'll hold that pipeline in staging until then. On Inventory, we've started. Four of the seven Inventory pipelines are built; the other three are dependent on the POS integration, which Raj's team needs to provide the API credentials for.
 
@@ -35,17 +35,17 @@ Attendees:
 
 [05:30] Raj: Sure, I'll send that this afternoon.
 
-[05:45] Sarah: Good. Now the UAT environment — this is the issue I really want to dig into. Raj, what's the status?
+[05:45] Sarah: Good. Now the UAT environment: this is the issue I really want to dig into. Raj, what's the status?
 
 [06:00] Raj: So the Snowflake environment itself is up. The Fivetran connectors are configured. The problem is we can't get the Tableau server to talk to Snowflake through the firewall. Our network team has a ticket open but they have a long backlog. I've asked for an escalation but I haven't heard back.
 
-[06:45] Linda: This is the thing I'm most worried about. Tom and I had a conversation last week — and Tom can speak to this when he joins — but the business can't really validate anything without seeing the actual dashboards. If UAT doesn't start until mid-November, we don't have enough time to do a meaningful test before go-live.
+[06:45] Linda: This is the thing I'm most worried about. Tom and I had a conversation last week (and Tom can speak to this when he joins), but the business can't really validate anything without seeing the actual dashboards. If UAT doesn't start until mid-November, we don't have enough time to do a meaningful test before go-live.
 
 [07:30] Sarah: I understand. Here's my concern: our contract is fixed price to a December 12th go-live. If UAT starts late because of the environment issue, and UAT surfaces problems, we have very little runway to fix them. I want to have a frank conversation about timeline before this becomes a crisis.
 
 [08:10] Linda: What are you suggesting?
 
-[08:30] Sarah: I want to put two options on the table. Option A: we work aggressively to resolve the firewall issue this week and commit to UAT starting October 20th. If we can do that, December 12th is still achievable. Option B: we acknowledge we might need to shift go-live to January 9th, build in two full weeks of UAT buffer, and do a change request that's scope-neutral — same price, just extended timeline.
+[08:30] Sarah: I want to put two options on the table. Option A: we work aggressively to resolve the firewall issue this week and commit to UAT starting October 20th. If we can do that, December 12th is still achievable. Option B: we acknowledge we might need to shift go-live to January 9th, build in two full weeks of UAT buffer, and do a change request that's scope-neutral: same price, just extended timeline.
 
 [09:20] Linda: I don't love either option but I understand. Can we give it until end of this week before deciding? If Raj can get the firewall thing resolved, I'd rather not have the change request conversation with Tom before I have to.
 
@@ -53,7 +53,7 @@ Attendees:
 
 [10:00] Raj: I need my network team lead to treat it as priority. I can have that conversation today, but I can't promise the outcome.
 
-[10:20] Sarah: Okay. Raj, please escalate today and give us a status by EOD Thursday. Linda, if we don't have a resolution by Thursday, you and I should talk Friday morning — before the weekly status call with Tom. Agreed?
+[10:20] Sarah: Okay. Raj, please escalate today and give us a status by EOD Thursday. Linda, if we don't have a resolution by Thursday, you and I should talk Friday morning, before the weekly status call with Tom. Agreed?
 
 [10:45] Linda: Agreed.
 
@@ -67,13 +67,13 @@ Attendees:
 
 [12:20] Tom: I don't want a January 9th go-live. Our year-end financial close is in January and we can't have a new data system going live in the middle of that.
 
-[12:40] Sarah: That's important context — thank you. So we have additional urgency to preserve December 12th. Noted.
+[12:40] Sarah: That's important context. Thank you. So we have additional urgency to preserve December 12th. Noted.
 
 [12:55] Priya: I want to flag something while we're talking about the timeline. On the Tableau rebuild, we've been working from the dashboard specs we documented in August. But last week Linda sent over an updated spec for the Inventory Turns dashboard that adds two new calculated metrics that weren't in the original. I started building them but I want to make sure that's in scope before I spend more time on it.
 
-[13:30] Linda: Oh — I thought that was minor. The analytics team added those metrics during the design review and assumed they were included.
+[13:30] Linda: Oh. I thought that was minor. The analytics team added those metrics during the design review and assumed they were included.
 
-[13:50] Dev: They're not in the SOW. The SOW lists 12 dashboards, and we documented the spec for each one in August. Adding calculated metrics to an existing dashboard is additional work — not huge, but it's not in the original estimate.
+[13:50] Dev: They're not in the SOW. The SOW lists 12 dashboards, and we documented the spec for each one in August. Adding calculated metrics to an existing dashboard is additional work; not huge, but it's not in the original estimate.
 
 [14:15] Sarah: Priya, stop work on those metrics for now. Linda, we'll need to scope this and potentially do a change request. It may be small enough to absorb, but I want to evaluate it formally before we commit. Can you send me the full updated spec so we can assess the delta?
 
@@ -93,7 +93,7 @@ Attendees:
 
 [16:50] Sarah: What could be better?
 
-[17:10] Marcus: Our risk log. We keep identifying risks in these calls but I'm not sure they're all captured. I want everyone to send me any open risks they're aware of after this call — just email, doesn't need to be formal. I'll update the register and share it before the weekly report on Friday.
+[17:10] Marcus: Our risk log. We keep identifying risks in these calls but I'm not sure they're all captured. I want everyone to send me any open risks they're aware of after this call; just email, it doesn't need to be formal. I'll update the register and share it before the weekly report on Friday.
 
 [17:45] Linda: I'd echo that. I didn't know the UAT environment was this blocked until today. I'd appreciate more proactive heads-up on blockers that affect the client side, even informally.
 
@@ -101,7 +101,7 @@ Attendees:
 
 [18:40] Marcus: Will do.
 
-[18:55] Tom: I just want to say — I'm watching the budget on this. We're in Q4 and the board is asking about 2026 capital plans. If there's going to be any cost increase, I need to know as early as possible.
+[18:55] Tom: I just want to say: I'm watching the budget on this. We're in Q4 and the board is asking about 2026 capital plans. If there's going to be any cost increase, I need to know as early as possible.
 
 [19:20] Sarah: Understood. We'll flag any cost risk as soon as we see it. Right now, the only potential cost item is the scope question Priya raised. Everything else is timeline, not cost.
 

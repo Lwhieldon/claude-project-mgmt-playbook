@@ -6,7 +6,7 @@ description: Plain-English review of a code file or data artifact for delivery l
 
 ## Purpose
 
-Provides a plain-English review of a code file, SQL query, data pipeline, or technical artifact — written for a delivery lead who needs to understand what changed, why it matters, and what questions to ask the developer. Not a deep engineering review; a leadership-level read.
+Provides a plain-English review of a code file, SQL query, data pipeline, or technical artifact, written for a delivery lead who needs to understand what changed, why it matters, and what questions to ask the developer. Not a deep engineering review; a leadership-level read.
 
 ## Usage
 
@@ -14,7 +14,7 @@ Provides a plain-English review of a code file, SQL query, data pipeline, or tec
 /code-review-light $ARGUMENTS
 ```
 
-`$ARGUMENTS` — File path to a code file, SQL script, configuration file, or data artifact.
+`$ARGUMENTS`: File path to a code file, SQL script, configuration file, or data artifact.
 
 ## Inputs
 
@@ -57,7 +57,7 @@ This SQL script pulls all customer orders from the past 90 days, calculates each
 
 **Potential Risks:**
 - The 90-day filter is hardcoded (line 14). If this script runs in January after a system cutover, it will silently include pre-migration data.
-- No error handling: if the `orders` table is unavailable, the script will fail silently and write nothing — the dashboard will show stale data with no alert.
+- No error handling: if the `orders` table is unavailable, the script will fail silently and write nothing; the dashboard will show stale data with no alert.
 
 **Questions to Ask the Developer:**
 1. Is the 90-day window intentional, or should it be configurable? Who owns that parameter?
