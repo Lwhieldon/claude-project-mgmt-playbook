@@ -1,8 +1,9 @@
-# Purpose
-Draft a structured change request with delivery, schedule, and commercial impact.
+---
+description: Draft a structured change request with delivery, schedule, and commercial impact
+argument-hint: [path-to-sow-or-change-details]
+---
 
-# Prompt
-Create a formal change request draft suitable for client review.
+Create a formal change request draft suitable for client review using inputs at `$ARGUMENTS`.
 
 Steps:
 1. Define the requested change and business rationale.
@@ -11,12 +12,12 @@ Steps:
 4. Note dependencies and assumptions.
 5. Add approval workflow and decision deadline.
 
-# Expected inputs
-- Existing SOW or baseline scope
+Expected inputs:
+- Existing SOW or baseline scope in `$ARGUMENTS`
 - Requested change details
 - Known effort/cost/time impacts (if available)
 
-# Example output
+Reference output format:
 ## Change request: CR-004 — Add procurement analytics dashboard
 
 ### Rationale

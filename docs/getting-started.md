@@ -12,8 +12,8 @@ cd claude-project-mgmt-playbook
 claude
 ```
 
-## 3) Prime context
-In Claude Code, open and read `CLAUDE.md` first so output tone and formatting match consulting delivery expectations.
+## 3) Project context loading
+When Claude Code starts in this repository, it automatically loads `CLAUDE.md`. You can still open it to review or tailor firm-specific language.
 
 ## 4) Run your first prompt
 Use this prompt to produce a first status update from sample data:

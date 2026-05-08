@@ -1,8 +1,9 @@
-# Purpose
-Turn meeting transcripts into clean actions, owners, due dates, and open questions.
+---
+description: Turn a meeting transcript into decisions, actions, owners, due dates, and open questions
+argument-hint: [path-to-transcript]
+---
 
-# Prompt
-Analyze the transcript and extract execution-ready follow-up items.
+Analyze the transcript and extract execution-ready follow-up items from `$ARGUMENTS`.
 
 Steps:
 1. Capture key decisions already made.
@@ -17,12 +18,12 @@ Output sections:
 - Open questions
 - Suggested stakeholder follow-up note (5 sentences max)
 
-# Expected inputs
-- Path to transcript text file
+Expected inputs:
+- Path to transcript text file in `$ARGUMENTS`
 - Meeting date (optional)
 - Default target cadence (for proposing dates)
 
-# Example output
+Reference output format:
 ## Decisions made
 - UAT window moved from 27 May to 3 June.
 - CRM integration testing will run in parallel with training prep.

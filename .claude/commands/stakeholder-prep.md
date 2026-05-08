@@ -1,8 +1,9 @@
-# Purpose
-Prepare talking points, likely questions, and decision asks for stakeholder meetings.
+---
+description: Prepare talking points, likely questions, and decision asks for stakeholder meetings
+argument-hint: [path-to-project-folder-or-files]
+---
 
-# Prompt
-Build a stakeholder briefing pack from project artifacts.
+Build a stakeholder briefing pack from project artifacts at `$ARGUMENTS`.
 
 Steps:
 1. Summarize current status in 5 bullets.
@@ -11,12 +12,12 @@ Steps:
 4. Prepare likely questions with suggested responses.
 5. List specific decisions/asks needed in the meeting.
 
-# Expected inputs
+Expected inputs:
 - Stakeholder type (sponsor, steering committee, workstream lead)
-- Project files/folder
+- Project files/folder path in `$ARGUMENTS`
 - Meeting duration and objective
 
-# Example output
+Reference output format:
 ## Suggested agenda (45 min)
 1. Delivery status and milestones (10)
 2. Risks and mitigations (10)

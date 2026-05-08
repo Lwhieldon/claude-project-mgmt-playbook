@@ -1,9 +1,10 @@
-# Purpose
-Create a client-ready weekly status report from project artifacts and data.
+---
+description: Create a client-ready weekly status report from project artifacts and data
+argument-hint: [path-to-project-folder-or-files]
+---
 
-# Prompt
 You are preparing a weekly consulting delivery status update.
-Use `CLAUDE.md` defaults and produce concise, client-facing output.
+Use `CLAUDE.md` defaults and produce concise, client-facing output using inputs at `$ARGUMENTS`.
 
 Steps:
 1. Read the provided project folder or files.
@@ -12,12 +13,12 @@ Steps:
 4. Extract risks/issues and decisions needed.
 5. Output in markdown with clear headings and tables.
 
-# Expected inputs
-- Project folder path or explicit file list
+Expected inputs:
+- Project folder path or explicit file list in `$ARGUMENTS`
 - Reporting period (optional)
 - Audience (client team, steering committee, or internal leadership)
 
-# Example output
+Reference output format:
 ## Overall status: **AMBER**
 Data model build is on track, but UAT start is at risk due to delayed source-system access.
 

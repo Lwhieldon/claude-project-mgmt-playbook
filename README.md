@@ -1,6 +1,18 @@
 # claude-project-mgmt-playbook
 Practical Claude and Claude Code patterns for project managers and delivery leads. CLAUDE.md examples, slash commands, and ready-to-use prompts for status reports, transcripts, requirements, change requests, and more.
 
+## Prerequisites
+- [Claude Code](https://docs.anthropic.com/en/docs/claude-code) installed
+- Active Claude paid plan with Claude Code access
+- Git and a terminal
+
+## Quickstart
+```bash
+git clone https://github.com/Lwhieldon/claude-project-mgmt-playbook.git
+cd claude-project-mgmt-playbook
+claude
+```
+
 ## Repository tree
 ```text
 claude-project-mgmt-playbook/
@@ -25,3 +37,9 @@ claude-project-mgmt-playbook/
     ├── acme-data-warehouse/            # Fictional project artifacts for quick practice
     └── globex-erp-migration/           # Fictional project artifacts for quick practice
 ```
+
+## Contributing
+Contributions are welcome. Please open an issue or pull request with clear examples, expected outputs, and updates to sample artifacts where relevant.
+
+## License
+This repository is licensed under the MIT License. See `LICENSE` for details.

@@ -1,10 +1,9 @@
 ---
 name: meeting-prep
-description: Prepare stakeholder-specific meeting agendas, talking points, and decision asks from current project artifacts.
-invocation: user
+description: Use when preparing for sponsor, steering committee, or workstream meetings. Builds agendas, key talking points, likely Q&A, and clear decision asks from current project artifacts.
 ---
 
-# Meeting Prep Skill
+# Meeting prep workflow
 
 ## Use when
 - Preparing steering committees, sponsor check-ins, or workstream syncs.

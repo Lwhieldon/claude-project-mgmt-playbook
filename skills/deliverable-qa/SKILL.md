@@ -1,10 +1,9 @@
 ---
 name: deliverable-qa
-description: Validate client deliverables for completeness, quality, and acceptance-readiness before submission.
-invocation: user
+description: Use when reviewing client deliverables for quality, completeness, and consistency before submission. Covers tone checks, structural review, fact verification, and acceptance criteria alignment.
 ---
 
-# Deliverable QA Skill
+# Deliverable QA workflow
 
 ## Use when
 - Reviewing decks, documents, or trackers before client submission.

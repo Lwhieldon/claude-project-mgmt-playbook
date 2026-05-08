@@ -1,8 +1,9 @@
-# Purpose
-Generate concise executive summaries for senior leadership and directors.
+---
+description: Generate a concise executive summary for senior leadership and directors
+argument-hint: [path-to-project-folder-or-files]
+---
 
-# Prompt
-Create an executive summary based on provided artifacts using the default structure in `CLAUDE.md`.
+Create an executive summary based on artifacts at `$ARGUMENTS` using the default structure in `CLAUDE.md`.
 
 Constraints:
 - Max 220 words
@@ -10,12 +11,12 @@ Constraints:
 - Include only top risks/decisions
 - Use confident, neutral tone
 
-# Expected inputs
-- Project files/folder
+Expected inputs:
+- Project files/folder path in `$ARGUMENTS`
 - Audience (director, CIO, steering committee)
 - Time horizon (this week, this month, quarter)
 
-# Example output
+Reference output format:
 **Headline:** Program remains on track for Q3 launch with one controllable schedule risk.
 
 The team completed core finance and sales data models and validated quality rules with business leads, improving readiness for UAT. The primary risk is delayed infrastructure access, which has compressed integration testing by one week; mitigation is active through parallel test execution and daily dependency tracking.

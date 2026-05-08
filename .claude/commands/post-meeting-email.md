@@ -1,8 +1,9 @@
-# Purpose
-Draft a client-facing follow-up email after a stakeholder meeting.
+---
+description: Draft a client-facing follow-up email after a stakeholder meeting
+argument-hint: [path-to-meeting-notes]
+---
 
-# Prompt
-Write a concise, professional email that summarizes outcomes and next steps.
+Write a concise, professional email summarizing outcomes and next steps from the meeting notes at `$ARGUMENTS`.
 
 Steps:
 1. Capture meeting purpose and key outcomes.
@@ -16,12 +17,12 @@ Tone requirements:
 - Plain language for technically literate non-engineers
 - No internal-only shorthand
 
-# Expected inputs
-- Meeting notes or transcript
+Expected inputs:
+- Meeting notes or transcript in `$ARGUMENTS`
 - Recipient audience (sponsor, steering committee, workstream leads)
 - Desired send date
 
-# Example output
+Reference output format:
 Subject: Follow-up: Data Warehouse Steering Committee (8 May 2026)
 
 Hi team,

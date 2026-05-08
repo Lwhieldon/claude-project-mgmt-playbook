@@ -1,10 +1,9 @@
 ---
 name: status-comms
-description: Convert raw delivery updates into audience-specific status communications for clients and executives.
-invocation: user
+description: Use when turning raw project updates into client-ready or executive-ready communications. Produces concise and structured versions with clear status, risks, owners, and dates.
 ---
 
-# Status Communications Skill
+# Status communications workflow
 
 ## Use when
 - Turning notes, trackers, or transcripts into polished updates.

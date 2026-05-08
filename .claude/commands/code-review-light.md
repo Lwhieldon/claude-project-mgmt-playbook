@@ -1,8 +1,9 @@
-# Purpose
-Provide a lightweight, non-engineer-focused review of technical changes for delivery risk.
+---
+description: Provide a non-engineer-friendly review of technical changes focused on delivery risk
+argument-hint: [pr-link-or-diff]
+---
 
-# Prompt
-Review the supplied diff, PR, or technical notes and assess delivery impact.
+Review the supplied diff, PR, or technical notes at `$ARGUMENTS` and assess delivery impact.
 
 Steps:
 1. Summarize change intent in plain language.
@@ -12,12 +13,12 @@ Steps:
 
 Keep explanations business-friendly and concise.
 
-# Expected inputs
-- PR link or diff text
+Expected inputs:
+- PR link or diff text in `$ARGUMENTS`
 - Planned release date
 - Environment scope (dev/test/prod)
 
-# Example output
+Reference output format:
 ## Plain-language summary
 This change replaces a batch load job with event-based updates to reduce data lag.
 
