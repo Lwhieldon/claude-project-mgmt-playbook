@@ -1,0 +1,13 @@
+Week,Week_Ending,Sprint,Pct_Complete_Plan,Pct_Complete_Actual,Budget_Burn_Plan_Pct,Budget_Burn_Actual_Pct,Open_Issues,Open_Risks,Milestone_Status,Notes
+1,2025-07-11,Initiate,5,5,3,2,0,1,Green,"Kickoff complete; environment setup in progress"
+2,2025-07-18,Initiate,10,9,6,5,1,1,Green,"Source system access delayed 3 days; VPN configured"
+3,2025-07-25,Initiate,15,14,10,9,1,2,Green,"Architecture doc draft delivered to client for review"
+4,2025-08-01,Design,22,21,14,13,2,2,Green,"Architecture doc approved; data migration planning started"
+5,2025-08-08,Design,30,29,19,18,2,2,Green,"Data migration plan in progress; SME interviews complete"
+6,2025-08-15,Design,38,36,25,24,3,2,Amber,"Data profiling found quality issues in Inventory domain; scope impact TBD"
+7,2025-08-22,Design,45,43,30,29,3,3,Amber,"Data migration plan approved; CR-001 raised for Inventory quality remediation (absorbed)"
+8,2025-09-05,Sprint1,53,50,38,37,4,3,Amber,"Sprint 1 complete; Finance pipelines 4/6 deployed; 2 pending business rules"
+9,2025-09-12,Sprint2,61,55,47,52,6,4,Amber,"Budget burn accelerating: offshore resource added for catch-up; Inventory domain start delayed"
+10,2025-09-19,Sprint2,68,59,55,61,7,5,Red,"Velocity 13% below plan; POS API credentials blocked by InfoSec; UAT env not started"
+11,2025-09-26,Sprint3,75,63,62,68,8,5,Red,"Finance pipelines complete (6/6); Inventory stalled on POS access; UAT environment firewall issue identified"
+12,2025-10-03,Sprint4,82,67,70,74,8,6,Red,"UAT env still blocked; Tableau-Snowflake firewall unresolved; potential timeline risk to Dec 12 go-live; scope change pending (Inventory Turns dashboard)"
