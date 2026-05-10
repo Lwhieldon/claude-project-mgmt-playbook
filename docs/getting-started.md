@@ -25,7 +25,7 @@ claude --version
 ## Step 2: Clone and Open This Repo
 
 ```bash
-git clone https://github.com/YOUR_ORG/claude-project-mgmt-playbook.git
+git clone https://github.com/Lwhieldon/claude-project-mgmt-playbook.git
 cd claude-project-mgmt-playbook
 claude
 ```
