@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="Claude Code Project Management Playbook — for consulting delivery teams">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B1220"></stop>
+      <stop offset="100%" stop-color="#0F172A"></stop>
+    </linearGradient>
+    <linearGradient id="accentLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2DD4BF"></stop>
+      <stop offset="100%" stop-color="#60A5FA"></stop>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1E293B"></stop>
+      <stop offset="100%" stop-color="#0F172A"></stop>
+    </linearGradient>
+    <pattern id="grid" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#1E293B" stroke-width="0.5" opacity="0.6"></path>
+    </pattern>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="8"></feGaussianBlur>
+    </filter>
+  </defs>
+
+  
+  <rect width="1200" height="630" fill="url(#bg)"></rect>
+  <rect width="1200" height="630" fill="url(#grid)"></rect>
+
+  
+  <circle cx="950" cy="120" r="180" fill="#2DD4BF" opacity="0.08"></circle>
+  <circle cx="1080" cy="500" r="220" fill="#60A5FA" opacity="0.07"></circle>
+
+  
+  <g transform="translate(80,120)">
+    <rect x="0" y="0" width="6" height="22" fill="#2DD4BF" rx="1"></rect>
+    <text x="18" y="17" font-family="ui-monospace, &#39;JetBrains Mono&#39;, Menlo, monospace" font-size="14" letter-spacing="3" fill="#94A3B8">PLAYBOOK · v1.0</text>
+  </g>
+
+  
+  <g transform="translate(80,160)">
+    <text font-family="Inter, &#39;Segoe UI&#39;, -apple-system, sans-serif" font-weight="700" font-size="72" fill="#F8FAFC" letter-spacing="-1.5">
+      <tspan x="0" y="74">Claude Code</tspan>
+      <tspan x="0" y="148">Project</tspan>
+      <tspan x="0" y="222">Management</tspan>
+      <tspan x="0" y="296">Playbook<tspan fill="#2DD4BF">.</tspan></tspan>
+    </text>
+  </g>
+
+  
+  <rect x="80" y="500" width="80" height="3" fill="url(#accentLine)" rx="1.5"></rect>
+  <text x="80" y="538" font-family="Inter, &#39;Segoe UI&#39;, sans-serif" font-weight="500" font-size="22" fill="#CBD5E1">For consulting delivery teams.</text>
+  <text x="80" y="568" font-family="ui-monospace, &#39;JetBrains Mono&#39;, Menlo, monospace" font-size="14" fill="#64748B" letter-spacing="1">SOWs · status reports · transcripts · stakeholder prep</text>
+
+  
+  <g transform="translate(700,90)">
+    
+    <g transform="translate(60,40) rotate(-3 200 220)">
+      <rect width="400" height="440" rx="14" fill="url(#card)" stroke="#1E293B" stroke-width="1" opacity="0.55"></rect>
+      <rect x="20" y="22" width="60" height="8" rx="4" fill="#334155"></rect>
+      <rect x="20" y="42" width="160" height="6" rx="3" fill="#1F2A3D"></rect>
+      <g transform="translate(20,72)" stroke="#334155" stroke-width="1">
+        <line x1="0" y1="0" x2="360" y2="0"></line>
+        <line x1="0" y1="40" x2="360" y2="40"></line>
+        <line x1="0" y1="80" x2="360" y2="80"></line>
+      </g>
+    </g>
+
+    
+    <g transform="translate(30,30) rotate(2 200 220)">
+      <rect width="400" height="420" rx="14" fill="url(#card)" stroke="#334155" stroke-width="1"></rect>
+      <text x="22" y="38" font-family="Inter, sans-serif" font-size="13" font-weight="600" fill="#94A3B8" letter-spacing="2">PHASE TIMELINE</text>
+      
+      <g font-family="Inter, sans-serif" font-size="13" fill="#CBD5E1">
+        <g transform="translate(22,72)">
+          <text fill="#64748B" font-family="ui-monospace, Menlo, monospace" font-size="11">DISCOVERY · 4w</text>
+          <rect x="0" y="14" width="320" height="10" rx="5" fill="#1E293B"></rect>
+          <rect x="0" y="14" width="320" height="10" rx="5" fill="#34D399"></rect>
+        </g>
+        <g transform="translate(22,124)">
+          <text fill="#64748B" font-family="ui-monospace, Menlo, monospace" font-size="11">DESIGN · 6w</text>
+          <rect x="0" y="14" width="320" height="10" rx="5" fill="#1E293B"></rect>
+          <rect x="0" y="14" width="285" height="10" rx="5" fill="#34D399"></rect>
+        </g>
+        <g transform="translate(22,176)">
+          <text fill="#64748B" font-family="ui-monospace, Menlo, monospace" font-size="11">BUILD · 12w · IN FLIGHT</text>
+          <rect x="0" y="14" width="320" height="10" rx="5" fill="#1E293B"></rect>
+          <rect x="0" y="14" width="190" height="10" rx="5" fill="#F59E0B"></rect>
+        </g>
+        <g transform="translate(22,228)">
+          <text fill="#475569" font-family="ui-monospace, Menlo, monospace" font-size="11">UAT · 3w</text>
+          <rect x="0" y="14" width="320" height="10" rx="5" fill="#1E293B"></rect>
+        </g>
+        <g transform="translate(22,280)">
+          <text fill="#475569" font-family="ui-monospace, Menlo, monospace" font-size="11">CUTOVER · 2w</text>
+          <rect x="0" y="14" width="320" height="10" rx="5" fill="#1E293B"></rect>
+        </g>
+        <g transform="translate(22,332)">
+          <text fill="#475569" font-family="ui-monospace, Menlo, monospace" font-size="11">HYPERCARE · 4w</text>
+          <rect x="0" y="14" width="320" height="10" rx="5" fill="#1E293B"></rect>
+        </g>
+      </g>
+      
+      <line x1="232" y1="60" x2="232" y2="380" stroke="#2DD4BF" stroke-width="1.5" stroke-dasharray="3 4"></line>
+      <circle cx="232" cy="60" r="4" fill="#2DD4BF"></circle>
+      <text x="240" y="63" font-family="ui-monospace, Menlo, monospace" font-size="10" fill="#2DD4BF" letter-spacing="1">NOW</text>
+    </g>
+
+    
+    <g transform="translate(0,180)">
+      <rect width="400" height="200" rx="12" fill="#020617" stroke="#1E293B" stroke-width="1"></rect>
+      <g transform="translate(14,14)">
+        <circle cx="6" cy="6" r="6" fill="#F87171"></circle>
+        <circle cx="26" cy="6" r="6" fill="#F59E0B"></circle>
+        <circle cx="46" cy="6" r="6" fill="#34D399"></circle>
+      </g>
+      <g font-family="ui-monospace, &#39;JetBrains Mono&#39;, Menlo, monospace" font-size="13">
+        <text x="22" y="62" fill="#64748B">~/playbook $</text>
+        <text x="142" y="62" fill="#F8FAFC">claude</text>
+        <text x="22" y="92" fill="#2DD4BF">&gt;</text>
+        <text x="42" y="92" fill="#CBD5E1">/status-report --week 14</text>
+        <text x="22" y="124" fill="#94A3B8">  reading transcripts/…</text>
+        <text x="22" y="148" fill="#94A3B8">  drafting RAG indicators…</text>
+        <text x="22" y="172" fill="#34D399">  ✓ status report ready</text>
+      </g>
+    </g>
+  </g>
+
+  
+  <g transform="translate(80,592)" font-family="ui-monospace, &#39;JetBrains Mono&#39;, Menlo, monospace" font-size="11" fill="#475569" letter-spacing="2">
+    <text>github.com/Lwhieldon/claude-project-mgmt-playbook</text>
+  </g>
+</svg>

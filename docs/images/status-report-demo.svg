@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="/status-report running in Claude Code, showing amber RAG, accomplishments, and a risk table with a budget-burn scissors pattern">
+  <defs>
+    <linearGradient id="page" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1220"></stop>
+      <stop offset="100%" stop-color="#0F172A"></stop>
+    </linearGradient>
+    <linearGradient id="termHead" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1F2937"></stop>
+      <stop offset="100%" stop-color="#111827"></stop>
+    </linearGradient>
+    <pattern id="grid2" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#1E293B" stroke-width="0.5" opacity="0.5"></path>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="700" fill="url(#page)"></rect>
+  <rect width="1200" height="700" fill="url(#grid2)"></rect>
+
+  
+  <g transform="translate(60,50)">
+    <rect width="1080" height="600" rx="14" fill="#020617" stroke="#1E293B" stroke-width="1"></rect>
+    
+    <rect width="1080" height="38" rx="14" fill="url(#termHead)"></rect>
+    <rect y="24" width="1080" height="14" fill="#111827"></rect>
+    <g transform="translate(16,19)">
+      <circle cx="0" cy="0" r="6" fill="#F87171"></circle>
+      <circle cx="20" cy="0" r="6" fill="#F59E0B"></circle>
+      <circle cx="40" cy="0" r="6" fill="#34D399"></circle>
+    </g>
+    <text x="540" y="24" text-anchor="middle" font-family="ui-monospace, &#39;JetBrains Mono&#39;, Menlo, monospace" font-size="12" fill="#64748B">claude — ~/engagements/acme-erp-build</text>
+    <line x1="0" y1="38" x2="1080" y2="38" stroke="#1E293B" stroke-width="1"></line>
+
+    
+    <g font-family="ui-monospace, &#39;JetBrains Mono&#39;, Menlo, monospace" font-size="13.5">
+
+      
+      <text x="22" y="72" fill="#64748B">lee@sch:~/engagements/acme-erp-build</text>
+      <text x="22" y="96" fill="#2DD4BF">&gt;</text>
+      <text x="42" y="96" fill="#F8FAFC">/status-report --week 14 --audience client</text>
+
+      
+      <text x="22" y="124" fill="#475569">  · loaded CLAUDE.md (engagement context)</text>
+      <text x="22" y="144" fill="#475569">  · synthesizing transcripts/2026-05-04-steerco.md</text>
+      <text x="22" y="164" fill="#475569">  · cross-checking burn vs. % complete</text>
+
+      
+      <g transform="translate(22,194)">
+        <rect width="1036" height="44" rx="6" fill="#1E1B0F" stroke="#3D2E0A" stroke-width="1"></rect>
+        <circle cx="22" cy="22" r="8" fill="#F59E0B"></circle>
+        <text x="42" y="27" fill="#FBBF24" font-weight="600">🟡 AMBER</text>
+        <text x="148" y="27" fill="#E5E7EB">  Acme ERP Build · Week 14 of 26 · PM: L. Whieldon</text>
+        <text x="1014" y="27" text-anchor="end" fill="#94A3B8" font-size="12">2026-05-08</text>
+      </g>
+
+      
+      <g transform="translate(22,260)">
+        
+        <g>
+          <text x="0" y="0" fill="#94A3B8" font-size="11" letter-spacing="2">ACCOMPLISHMENTS THIS WEEK</text>
+          <g fill="#E5E7EB" font-size="13">
+            <text x="0" y="26"><tspan fill="#34D399">✓</tspan>  Finance module UAT closed · 142 / 148 cases pass</text>
+            <text x="0" y="50"><tspan fill="#34D399">✓</tspan>  Cutover dress-rehearsal #1 completed Friday</text>
+            <text x="0" y="74"><tspan fill="#34D399">✓</tspan>  Vendor master data load validated against legacy</text>
+            <text x="0" y="98"><tspan fill="#34D399">✓</tspan>  Hypercare runbook signed off by Ops lead</text>
+          </g>
+        </g>
+
+        
+        <line x1="500" y1="-8" x2="500" y2="270" stroke="#1E293B"></line>
+
+        
+        <g transform="translate(528,0)">
+          <text x="0" y="0" fill="#94A3B8" font-size="11" letter-spacing="2">TOP RISKS</text>
+
+          
+          <g transform="translate(0,18)" font-size="11" fill="#64748B" letter-spacing="1">
+            <text x="0" y="14">RISK</text>
+            <text x="282" y="14">SEV</text>
+            <text x="362" y="14">OWNER</text>
+          </g>
+          <line x1="0" y1="40" x2="508" y2="40" stroke="#1E293B"></line>
+
+          
+          <g transform="translate(0,52)" font-size="13" fill="#E5E7EB">
+            <text x="0" y="14">Budget burn 74% vs. 67% complete</text>
+            <g transform="translate(282,2)">
+              <rect width="56" height="20" rx="10" fill="#3D2E0A" stroke="#7C5A0B"></rect>
+              <text x="28" y="14" text-anchor="middle" fill="#FBBF24" font-size="11" font-weight="600">HIGH</text>
+            </g>
+            <text x="362" y="14" fill="#94A3B8">PM</text>
+          </g>
+          <line x1="0" y1="78" x2="508" y2="78" stroke="#0F172A"></line>
+
+          
+          <g transform="translate(0,90)" font-size="13" fill="#E5E7EB">
+            <text x="0" y="14">Integration test env unstable since 5/3</text>
+            <g transform="translate(282,2)">
+              <rect width="56" height="20" rx="10" fill="#3D2E0A" stroke="#7C5A0B"></rect>
+              <text x="28" y="14" text-anchor="middle" fill="#FBBF24" font-size="11" font-weight="600">MED</text>
+            </g>
+            <text x="362" y="14" fill="#94A3B8">Tech Lead</text>
+          </g>
+          <line x1="0" y1="116" x2="508" y2="116" stroke="#0F172A"></line>
+
+          
+          <g transform="translate(0,128)" font-size="13" fill="#E5E7EB">
+            <text x="0" y="14">Client SME availability for cutover wknd</text>
+            <g transform="translate(282,2)">
+              <rect width="56" height="20" rx="10" fill="#3D2E0A" stroke="#7C5A0B"></rect>
+              <text x="28" y="14" text-anchor="middle" fill="#FBBF24" font-size="11" font-weight="600">MED</text>
+            </g>
+            <text x="362" y="14" fill="#94A3B8">Engagement Mgr</text>
+          </g>
+          <line x1="0" y1="154" x2="508" y2="154" stroke="#1E293B"></line>
+
+          
+          <g transform="translate(0,176)">
+            <rect width="508" height="86" rx="6" fill="#1E1B0F" stroke="#3D2E0A"></rect>
+            <text x="14" y="22" fill="#FBBF24" font-size="11" letter-spacing="2">⚠  SCISSORS PATTERN DETECTED</text>
+            <text x="14" y="44" fill="#E5E7EB" font-size="12">Burn (74%) is outpacing % complete (67%) by 7 pts.</text>
+            
+            <g transform="translate(14,54)">
+              <text x="0" y="12" fill="#94A3B8" font-size="10">BURN</text>
+              <rect x="46" y="4" width="380" height="8" rx="4" fill="#0F172A"></rect>
+              <rect x="46" y="4" width="281" height="8" rx="4" fill="#F87171"></rect>
+              <text x="432" y="12" fill="#F87171" font-size="10" font-weight="600">74%</text>
+            </g>
+            <g transform="translate(14,72)">
+              <text x="0" y="12" fill="#94A3B8" font-size="10">DONE</text>
+              <rect x="46" y="4" width="380" height="8" rx="4" fill="#0F172A"></rect>
+              <rect x="46" y="4" width="255" height="8" rx="4" fill="#34D399"></rect>
+              <text x="432" y="12" fill="#34D399" font-size="10" font-weight="600">67%</text>
+            </g>
+          </g>
+        </g>
+      </g>
+
+      
+      <text x="22" y="568" fill="#34D399">  ✓ status_report.md written to outputs/2026-05-08/</text>
+      <text x="22" y="588" fill="#2DD4BF">&gt;</text>
+      <text x="42" y="588" fill="#F8FAFC">_</text>
+      <rect x="52" y="576" width="9" height="16" fill="#F8FAFC">
+        
+      </rect>
+    </g>
+  </g>
+</svg>

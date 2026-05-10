@@ -1,0 +1,257 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="Before and after — messy CSV and raw notes on the left, clean status report with RAG indicators and tables on the right">
+  <defs>
+    <linearGradient id="leftBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0F172A"></stop>
+      <stop offset="100%" stop-color="#0B1220"></stop>
+    </linearGradient>
+    <linearGradient id="rightBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FBFCFE"></stop>
+      <stop offset="100%" stop-color="#F1F5F9"></stop>
+    </linearGradient>
+    <pattern id="leftGrid" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#1E293B" stroke-width="0.5" opacity="0.6"></path>
+    </pattern>
+    <pattern id="rightDots" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#CBD5E1" opacity="0.5"></circle>
+    </pattern>
+  </defs>
+
+  
+  <rect x="0" y="0" width="600" height="700" fill="url(#leftBg)"></rect>
+  <rect x="0" y="0" width="600" height="700" fill="url(#leftGrid)"></rect>
+  <rect x="600" y="0" width="600" height="700" fill="url(#rightBg)"></rect>
+  <rect x="600" y="0" width="600" height="700" fill="url(#rightDots)"></rect>
+
+  
+  <g transform="translate(40,46)">
+    <rect width="6" height="22" fill="#F87171" rx="1"></rect>
+    <text x="18" y="17" font-family="ui-monospace, Menlo, monospace" font-size="13" letter-spacing="3" fill="#94A3B8">BEFORE · RAW INPUTS</text>
+  </g>
+  <g transform="translate(640,46)">
+    <rect width="6" height="22" fill="#0D9488" rx="1"></rect>
+    <text x="18" y="17" font-family="ui-monospace, Menlo, monospace" font-size="13" letter-spacing="3" fill="#475569">AFTER · CLAUDE OUTPUT</text>
+  </g>
+
+  
+
+  
+  <g transform="translate(40,90)">
+    <rect width="520" height="244" rx="10" fill="#020617" stroke="#1E293B"></rect>
+    
+    <g transform="translate(14,14)">
+      <rect width="170" height="22" rx="4" fill="#1F2937"></rect>
+      <text x="10" y="15" font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#94A3B8">tracker_v3_FINAL(2).csv</text>
+    </g>
+
+    
+    <g font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#64748B">
+      <text x="22" y="64">id</text>
+      <text x="62" y="64">task</text>
+      <text x="240" y="64">owner</text>
+      <text x="316" y="64">due</text>
+      <text x="386" y="64">status</text>
+      <text x="460" y="64">%</text>
+    </g>
+    <line x1="22" y1="74" x2="498" y2="74" stroke="#1E293B"></line>
+
+    
+    <g font-family="ui-monospace, Menlo, monospace" font-size="11.5" fill="#CBD5E1">
+      <text x="22" y="94">001</text>
+      <text x="62" y="94">vendor master cleanup</text>
+      <text x="240" y="94">JS</text>
+      <text x="316" y="94">5/2</text>
+      <text x="386" y="94" fill="#34D399">done</text>
+      <text x="460" y="94">100</text>
+
+      <text x="22" y="118">002</text>
+      <text x="62" y="118">finance UAT batch 3</text>
+      <text x="240" y="118" fill="#F87171">???</text>
+      <text x="316" y="118" fill="#F87171">tbd</text>
+      <text x="386" y="118" fill="#F59E0B">in prog</text>
+      <text x="460" y="118"></text>
+
+      <text x="22" y="142">003</text>
+      <text x="62" y="142">cutover rehearsal #1</text>
+      <text x="240" y="142">L. Wh.</text>
+      <text x="316" y="142">5/8</text>
+      <text x="386" y="142" fill="#34D399">done</text>
+      <text x="460" y="142">100</text>
+
+      <text x="22" y="166">003</text>
+      <text x="62" y="166" fill="#F87171">cutover rehearsal #1 (dup)</text>
+      <text x="240" y="166" fill="#F87171"></text>
+      <text x="316" y="166">5/9</text>
+      <text x="386" y="166"></text>
+      <text x="460" y="166" fill="#F87171">??</text>
+
+      <text x="22" y="190">004</text>
+      <text x="62" y="190">integration env stable</text>
+      <text x="240" y="190">tech lead</text>
+      <text x="316" y="190" fill="#F87171">overdue</text>
+      <text x="386" y="190" fill="#F87171">RED</text>
+      <text x="460" y="190">40</text>
+
+      <text x="22" y="214">005</text>
+      <text x="62" y="214" fill="#F87171">SME availability for wknd?</text>
+      <text x="240" y="214"></text>
+      <text x="316" y="214"></text>
+      <text x="386" y="214"></text>
+      <text x="460" y="214"></text>
+    </g>
+
+    
+    <g font-family="Inter, sans-serif" font-size="10" fill="#F87171">
+      <circle cx="510" cy="118" r="4" fill="#F87171"></circle>
+      <circle cx="510" cy="166" r="4" fill="#F87171"></circle>
+      <circle cx="510" cy="214" r="4" fill="#F87171"></circle>
+    </g>
+  </g>
+
+  
+  <g transform="translate(40,358)">
+    <rect width="520" height="290" rx="10" fill="#020617" stroke="#1E293B"></rect>
+    <g transform="translate(14,14)">
+      <rect width="200" height="22" rx="4" fill="#1F2937"></rect>
+      <text x="10" y="15" font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#94A3B8">steerco_5-4_notes.txt</text>
+    </g>
+
+    <g font-family="ui-monospace, Menlo, monospace" font-size="11.5" fill="#94A3B8" font-style="italic">
+      <text x="22" y="58">5/4 mtg w/ acme — ran long, kicked off ~9:08…</text>
+      <text x="22" y="78">- finance UAT mostly green but 6 cases hung up</text>
+      <text x="22" y="98">  on tax-rate edge cases (priya following up?)</text>
+      <text x="22" y="118">- BURN looks bad — 74% of fee against ~67% done</text>
+      <text x="22" y="138">  per kim&#39;s pull. need to flag to sponsor.</text>
+      <text x="22" y="158">- env was down again thurs afternoon, dba ticket</text>
+      <text x="22" y="178">  open since tues, no ETA. RED!!</text>
+      <text x="22" y="198">- weekend cutover — joe out, dana ooo, who&#39;s</text>
+      <text x="22" y="218">  the SME for vendor master if both gone???</text>
+      <text x="22" y="238">- action items: lee to confirm SMEs, kim to</text>
+      <text x="22" y="258">  rebaseline burn, tech lead to escalate env</text>
+      <text x="22" y="278">- next steerco 5/11. send pre-read by mon EOD.</text>
+    </g>
+  </g>
+
+  
+
+  
+  <g transform="translate(640,90)" font-family="Inter, sans-serif">
+    <rect width="520" height="558" rx="10" fill="#FFFFFF" stroke="#E2E8F0"></rect>
+
+    
+    <g transform="translate(0,0)">
+      <rect width="520" height="58" rx="10" fill="#0F172A"></rect>
+      <rect y="48" width="520" height="10" fill="#0F172A"></rect>
+      <text x="22" y="35" fill="#F8FAFC" font-weight="700" font-size="16">Acme ERP Build · Status Report</text>
+      <text x="498" y="35" text-anchor="end" font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#94A3B8">WK 14 · 2026-05-08</text>
+    </g>
+
+    
+    <g transform="translate(20,80)">
+      <rect width="480" height="48" rx="6" fill="#FFFBEB" stroke="#FDE68A"></rect>
+      <circle cx="24" cy="24" r="9" fill="#F59E0B"></circle>
+      <text x="46" y="20" font-weight="700" font-size="13" fill="#92400E" letter-spacing="2">AMBER</text>
+      <text x="46" y="38" font-size="12" fill="#475569">Burn outpacing % complete; env instability flagged.</text>
+    </g>
+
+    
+    <g transform="translate(20,148)">
+      <text font-family="ui-monospace, Menlo, monospace" font-size="10" letter-spacing="2" fill="#0D9488">HIGHLIGHTS</text>
+      <g font-size="12.5" fill="#0F172A" transform="translate(0,18)">
+        <text y="14">✓ Finance UAT closed (142/148 cases pass)</text>
+        <text y="36">✓ Cutover dress-rehearsal #1 complete</text>
+        <text y="58">✓ Vendor master load validated vs. legacy</text>
+      </g>
+    </g>
+
+    
+    <g transform="translate(20,244)">
+      <text font-family="ui-monospace, Menlo, monospace" font-size="10" letter-spacing="2" fill="#0D9488">TOP RISKS</text>
+      <g transform="translate(0,16)">
+        <rect width="480" height="138" rx="6" fill="#F8FAFC" stroke="#E2E8F0"></rect>
+        
+        <g font-family="ui-monospace, Menlo, monospace" font-size="10" fill="#64748B" letter-spacing="1.5">
+          <text x="14" y="20">RISK</text>
+          <text x="334" y="20">SEV</text>
+          <text x="404" y="20">OWNER</text>
+        </g>
+        <line x1="14" y1="30" x2="466" y2="30" stroke="#E2E8F0"></line>
+
+        
+        <g transform="translate(0,40)" font-size="12" fill="#0F172A">
+          <text x="14" y="14">Budget burn 74% vs. 67% complete</text>
+          <g transform="translate(334,2)">
+            <rect width="44" height="18" rx="9" fill="#FEF3C7" stroke="#FDE68A"></rect>
+            <text x="22" y="13" text-anchor="middle" font-size="10" font-weight="700" fill="#92400E">HIGH</text>
+          </g>
+          <text x="404" y="14" fill="#475569" font-size="12">PM</text>
+        </g>
+        <line x1="14" y1="64" x2="466" y2="64" stroke="#EEF2F7"></line>
+
+        
+        <g transform="translate(0,76)" font-size="12" fill="#0F172A">
+          <text x="14" y="14">Integration env unstable since 5/3</text>
+          <g transform="translate(334,2)">
+            <rect width="44" height="18" rx="9" fill="#FEF3C7" stroke="#FDE68A"></rect>
+            <text x="22" y="13" text-anchor="middle" font-size="10" font-weight="700" fill="#92400E">MED</text>
+          </g>
+          <text x="404" y="14" fill="#475569" font-size="12">Tech Lead</text>
+        </g>
+        <line x1="14" y1="100" x2="466" y2="100" stroke="#EEF2F7"></line>
+
+        
+        <g transform="translate(0,112)" font-size="12" fill="#0F172A">
+          <text x="14" y="14">Client SME availability for cutover wknd</text>
+          <g transform="translate(334,2)">
+            <rect width="44" height="18" rx="9" fill="#FEF3C7" stroke="#FDE68A"></rect>
+            <text x="22" y="13" text-anchor="middle" font-size="10" font-weight="700" fill="#92400E">MED</text>
+          </g>
+          <text x="404" y="14" fill="#475569" font-size="12">Eng Mgr</text>
+        </g>
+      </g>
+    </g>
+
+    
+    <g transform="translate(20,418)">
+      <text font-family="ui-monospace, Menlo, monospace" font-size="10" letter-spacing="2" fill="#0D9488">ACTION ITEMS</text>
+      <g transform="translate(0,16)">
+        <rect width="480" height="118" rx="6" fill="#F0FDFA" stroke="#99F6E4"></rect>
+        <g font-family="ui-monospace, Menlo, monospace" font-size="10" fill="#475569" letter-spacing="1.5">
+          <text x="14" y="20">OWNER</text>
+          <text x="120" y="20">ACTION</text>
+          <text x="420" y="20">DUE</text>
+        </g>
+        <line x1="14" y1="30" x2="466" y2="30" stroke="#CCFBF1"></line>
+        <g font-size="12" fill="#0F172A">
+          <text x="14" y="54">L. Whieldon</text>
+          <text x="120" y="54">Confirm SME coverage for cutover wknd</text>
+          <text x="420" y="54" fill="#0D9488" font-weight="600">5/10</text>
+
+          <text x="14" y="80">K. Park</text>
+          <text x="120" y="80">Rebaseline burn forecast w/ EAC</text>
+          <text x="420" y="80" fill="#0D9488" font-weight="600">5/12</text>
+
+          <text x="14" y="106">Tech Lead</text>
+          <text x="120" y="106">Escalate env instability to DBA mgr</text>
+          <text x="420" y="106" fill="#0D9488" font-weight="600">5/09</text>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  
+  <g transform="translate(600,0)">
+    <line x1="0" y1="0" x2="0" y2="700" stroke="#1E293B" stroke-width="1"></line>
+    
+    <g transform="translate(0,350)">
+      <circle r="44" fill="#0F172A" stroke="#0D9488" stroke-width="2"></circle>
+      <g transform="translate(-22,-12)">
+        <text font-family="ui-monospace, Menlo, monospace" font-size="9" fill="#2DD4BF" letter-spacing="2" text-anchor="start">CLAUDE</text>
+      </g>
+      
+      <g stroke="#2DD4BF" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="-14" y1="8" x2="14" y2="8"></line>
+        <polyline points="6,2 14,8 6,14"></polyline>
+      </g>
+    </g>
+  </g>
+</svg>
