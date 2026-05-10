@@ -1,4 +1,4 @@
-# Claude Code Project Management Playbook
+# 📘 Claude Code Project Management Playbook
 
 ![Hero banner](docs/images/hero-banner.svg)
 
