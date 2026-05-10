@@ -75,41 +75,41 @@
           
           <g transform="translate(0,18)" font-size="11" fill="#64748B" letter-spacing="1">
             <text x="0" y="14">RISK</text>
-            <text x="282" y="14">SEV</text>
-            <text x="362" y="14">OWNER</text>
+            <text x="344" y="14">SEV</text>
+            <text x="424" y="14">OWNER</text>
           </g>
           <line x1="0" y1="40" x2="508" y2="40" stroke="#1E293B"></line>
 
           
-          <g transform="translate(0,52)" font-size="13" fill="#E5E7EB">
-            <text x="0" y="14">Budget burn 74% vs. 67% complete</text>
-            <g transform="translate(282,2)">
+          <g transform="translate(0,52)" font-size="12" fill="#E5E7EB">
+            <text x="0" y="14">Burn 74% vs. 67% complete</text>
+            <g transform="translate(340,2)">
               <rect width="56" height="20" rx="10" fill="#3D2E0A" stroke="#7C5A0B"></rect>
               <text x="28" y="14" text-anchor="middle" fill="#FBBF24" font-size="11" font-weight="600">HIGH</text>
             </g>
-            <text x="362" y="14" fill="#94A3B8">PM</text>
+            <text x="420" y="14" fill="#94A3B8">PM</text>
           </g>
           <line x1="0" y1="78" x2="508" y2="78" stroke="#0F172A"></line>
 
           
-          <g transform="translate(0,90)" font-size="13" fill="#E5E7EB">
-            <text x="0" y="14">Integration test env unstable since 5/3</text>
-            <g transform="translate(282,2)">
+          <g transform="translate(0,90)" font-size="12" fill="#E5E7EB">
+            <text x="0" y="14">Integration env unstable since 5/3</text>
+            <g transform="translate(340,2)">
               <rect width="56" height="20" rx="10" fill="#3D2E0A" stroke="#7C5A0B"></rect>
               <text x="28" y="14" text-anchor="middle" fill="#FBBF24" font-size="11" font-weight="600">MED</text>
             </g>
-            <text x="362" y="14" fill="#94A3B8">Tech Lead</text>
+            <text x="420" y="14" fill="#94A3B8">Tech Lead</text>
           </g>
           <line x1="0" y1="116" x2="508" y2="116" stroke="#0F172A"></line>
 
           
-          <g transform="translate(0,128)" font-size="13" fill="#E5E7EB">
-            <text x="0" y="14">Client SME availability for cutover wknd</text>
-            <g transform="translate(282,2)">
+          <g transform="translate(0,128)" font-size="12" fill="#E5E7EB">
+            <text x="0" y="14">Client SME for cutover wknd</text>
+            <g transform="translate(340,2)">
               <rect width="56" height="20" rx="10" fill="#3D2E0A" stroke="#7C5A0B"></rect>
               <text x="28" y="14" text-anchor="middle" fill="#FBBF24" font-size="11" font-weight="600">MED</text>
             </g>
-            <text x="362" y="14" fill="#94A3B8">Engagement Mgr</text>
+            <text x="420" y="14" fill="#94A3B8">Eng Mgr</text>
           </g>
           <line x1="0" y1="154" x2="508" y2="154" stroke="#1E293B"></line>
 
