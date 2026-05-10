@@ -13,7 +13,7 @@ A templatized baseline for consulting delivery teams who want to use Claude and 
 **Requirements:** Node.js 18+, a paid Anthropic plan (Pro, Team, or API key with credits), Git and a terminal.
 
 ```bash
-git clone https://github.com/YOUR_ORG/claude-project-mgmt-playbook.git
+git clone https://github.com/Lwhieldon/claude-project-mgmt-playbook.git
 cd claude-project-mgmt-playbook
 claude
 ```
